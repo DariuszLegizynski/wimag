@@ -25,18 +25,19 @@
         KONTAKT
       </NuxtLink>
     </nav>
-    <BaseBurger @click="toggle" :active="isBurgerActive" />
+    <BaseBurger @click="useToggle()" :active="isBurgerActive" />
   </header>
   <BaseSideBar @toggle="toggle" :isBurgerActive="isBurgerActive" />
 </template>
 
 <script setup>
+const { useToggle } = useUtils()
   let isBurgerActive = false
 
-  const toggle = () => {
-    console.log("isBurgerActive: ", isBurgerActive)
-    isBurgerActive = !isBurgerActive
-  }
+  // const toggle = () => {
+  //   console.log("isBurgerActive: ", isBurgerActive)
+  //   isBurgerActive = !isBurgerActive
+  // }
 </script>
 
 <style lang="scss" scoped>
