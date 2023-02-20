@@ -25,20 +25,12 @@
   </aside>
 </template>
 
-<script>
-export default {
-  props: {
-    isBurgerActive: {
-      type: Boolean,
-      default: false,
-    },
-  },
-  methods: {
-    toggle() {
-      this.$emit("toggle")
-    },
-  },
-}
+<script setup>
+defineProps(['isBurgerActive'])
+
+const toggle = () => {
+    this.$emit("toggle")
+  }
 </script>
 
 <style lang="scss" scoped>

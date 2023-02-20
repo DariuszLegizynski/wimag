@@ -4,15 +4,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    active: {
-      type: Boolean,
-      required: true,
-    },
-  },
-}
+<script setup>
+  const { active } = defineProps(['active'])
+
 </script>
 
 <style lang="scss" scoped>

@@ -33,7 +33,7 @@
 <script setup>
   let isBurgerActive = false
 
-      const toggle = () => {
+    const toggle = () => {
       isBurgerActive = !isBurgerActive
     }
 </script>
