@@ -5,8 +5,8 @@
 </template>
 
 <script setup>
-  const { active } = defineProps(['active'])
-
+  let { active } = defineProps(['active'])
+  console.log("active: ", active)
 </script>
 
 <style lang="scss" scoped>

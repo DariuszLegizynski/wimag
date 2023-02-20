@@ -26,7 +26,8 @@
 </template>
 
 <script setup>
-defineProps(['isBurgerActive'])
+let { isBurgerActive} = defineProps(['isBurgerActive'])
+console.log("isBurgerActive: ", isBurgerActive)
 
 const toggle = () => {
     this.$emit("toggle")

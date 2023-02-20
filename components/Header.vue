@@ -5,7 +5,7 @@
     <NuxtLink to="/"
       class="logo"
     >
-      <img src="/logo/gamiw_logo_white.png" alt="Wi-Mag logo" />
+      <img src="@/assets/logo/gamiw_logo_white.png" alt="Wi-Mag logo" />
     </NuxtLink>
     <nav>
       <div class="btn sr-only">MENU</div>
@@ -25,7 +25,7 @@
         KONTAKT
       </NuxtLink>
     </nav>
-    <BaseBurger @click.stop="toggle" :active="isBurgerActive" />
+    <BaseBurger @click="toggle" :active="isBurgerActive" />
   </header>
   <BaseSideBar @toggle="toggle" :isBurgerActive="isBurgerActive" />
 </template>
@@ -33,9 +33,10 @@
 <script setup>
   let isBurgerActive = false
 
-    const toggle = () => {
-      isBurgerActive = !isBurgerActive
-    }
+  const toggle = () => {
+    console.log("isBurgerActive: ", isBurgerActive)
+    isBurgerActive = !isBurgerActive
+  }
 </script>
 
 <style lang="scss" scoped>
