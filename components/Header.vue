@@ -25,10 +25,18 @@
         KONTAKT
       </NuxtLink>
     </nav>
-
+    <BaseBurger @click.stop="toggle" :active="isBurgerActive" />
   </header>
-
+  <BaseSideBar @toggle="toggle" :isBurgerActive="isBurgerActive" />
 </template>
+
+<script setup>
+  let isBurgerActive = false
+
+      const toggle = () => {
+      isBurgerActive = !isBurgerActive
+    }
+</script>
 
 <style lang="scss" scoped>
 @import '@/assets/scss/_general.scss';
