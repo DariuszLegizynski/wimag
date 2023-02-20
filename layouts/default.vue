@@ -1,7 +1,9 @@
 <template>
+  <Header />
   <div>
-<h3>This is my home page</h3>
+    <slot />
   </div>
+  <Footer />
 </template>
 
 <style lang="scss" scoped>
