@@ -2,7 +2,6 @@
   <section id="products" class="products-presented">
     <h1>Nasze produkty</h1>
     <section class="products-presented__items">
-      {{ data }}
       <HomeProductPresented
         v-for="productTypes in data"
         :key="productTypes.id"

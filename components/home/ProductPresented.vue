@@ -2,7 +2,7 @@
   <section class="product-presented" data-aos="fade-up" data-aos-once="true">
     <div class="product-presented__container">
       <div class="product-presented__img-wrapper">
-        <ScrollParallax
+        <!-- <ScrollParallax
           class="product-presented__img"
           direction="y"
           :speed="parallaxScrollSpeed"
@@ -12,7 +12,7 @@
             alt="some racks"
             loading="lazy"
           />
-        </ScrollParallax>
+        </ScrollParallax> -->
       </div>
     </div>
     <h3 class="product-presented__title product-presented__title">
@@ -29,23 +29,22 @@
       proszkowe. Skręcane ręcznie dobieranymi śrubami 6x12mm. Pokryta doskonałej
       jakości popielem RAL7035.
     </p>
-    <RouterLink :to="`/offer/product/${productTypes.id}`">
-      <button class="btn btn--link">
+      <NuxtLink to="`/offer/product/${productTypes.id}`" class="btn btn--link">
         Zobacz
-        <IconBase
+        <!-- <IconBase
           viewBox="0 0 24 24"
           :width="24"
           :height="24"
           iconColor="hsl(240, 90%, 27%)"
         >
           <IconArrowRight />
-        </IconBase>
-      </button>
-    </RouterLink>
+        </IconBase> -->
+      </NuxtLink>
   </section>
 </template>
 
 <script setup>
+  let { productTypes } = defineProps(['productTypes'])
 // import AOS from 'aos'
 // import 'aos/dist/aos.css'
 
