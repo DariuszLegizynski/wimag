@@ -26,12 +26,7 @@
 </template>
 
 <script setup>
-let { isBurgerActive} = defineProps(['isBurgerActive'])
-console.log("isBurgerActive: ", isBurgerActive)
-
-const toggle = () => {
-    this.$emit("toggle")
-  }
+  let { isBurgerActive } = defineProps(['isBurgerActive'])
 </script>
 
 <style lang="scss" scoped>

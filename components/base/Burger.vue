@@ -6,7 +6,6 @@
 
 <script setup>
   let { active } = defineProps(['active'])
-  console.log("active: ", active)
 </script>
 
 <style lang="scss" scoped>

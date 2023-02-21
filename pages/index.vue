@@ -1,7 +1,7 @@
 <template>
-  <div>
-<h3>This is my home page</h3>
-  </div>
+  <HomeHero />
+  <HomeProductsPresented />
+  <HomeProductPros />
 </template>
 
 <style lang="scss" scoped>
