@@ -1,9 +1,0 @@
-html,
-body {
-  background-color: hsl(225, 100%, 88%);
-  font-family: 'PublicSans-Regular';
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  margin: 0 !important;
-  padding: 0 !important;
-}

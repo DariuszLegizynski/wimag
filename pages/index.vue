@@ -1,7 +1,9 @@
 <template>
-  <HomeHero />
-  <HomeProductsPresented />
-  <HomeProductPros />
+  <section>
+    <HomeHero />
+    <HomeProductsPresented />
+    <HomeProductPros />
+  </section>
 </template>
 
 <style lang="scss" scoped>

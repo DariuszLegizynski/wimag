@@ -21,7 +21,7 @@
         <NuxtLink to="/#footer" class="btn btn--black">
           Zapytaj nas
         </NuxtLink>
-        <NuxtLink to="/home#products" class="btn">
+        <NuxtLink to="/#products" class="btn">
           Nasza oferta
         </NuxtLink>
       </div>

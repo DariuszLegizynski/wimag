@@ -8,14 +8,14 @@
         data-aos-easing="ease-in-sine"
         data-aos-once="true"
       >
-        <IconBase
+        <!-- <IconBase
           viewBox="0 0 512 512"
           :width="64"
           :height="64"
           iconColor="hsl(0, 0%, 96%)"
         >
           <IconQuality />
-        </IconBase>
+        </IconBase> -->
         <span
           ><strong>Najwyższa jakość<br /></strong>wykonania.</span
         >
@@ -26,14 +26,14 @@
         data-aos-easing="ease-in-sine"
         data-aos-once="true"
       >
-        <IconBase
+        <!-- <IconBase
           viewBox="0 0 64 64"
           :width="64"
           :height="64"
           iconColor="hsl(0, 0%, 96%)"
         >
           <IconNorm />
-        </IconBase>
+        </IconBase> -->
         <span>Spełniamy normę<br /><strong>PN-78 M-78320.</strong></span>
       </div>
       <div
@@ -42,14 +42,14 @@
         data-aos-easing="ease-in-sine"
         data-aos-once="true"
       >
-        <IconBase
+        <!-- <IconBase
           viewBox="0 0 469.567 469.567"
           :width="64"
           :height="64"
           iconColor="hsl(0, 0%, 96%)"
         >
           <IconStrong />
-        </IconBase>
+        </IconBase> -->
         <span>
           <strong>Sprawdzone produkty</strong> - próby wytrzymałościowe
           potwierdzają deklarowane obciążenie.
@@ -61,14 +61,14 @@
         data-aos-easing="ease-in-sine"
         data-aos-once="true"
       >
-        <IconBase
+        <!-- <IconBase
           viewBox="0 0 50 50"
           :width="64"
           :height="64"
           iconColor="hsl(0, 0%, 96%)"
         >
           <IconGear />
-        </IconBase>
+        </IconBase> -->
         <span
           >Proste w<br /><strong>montażu</strong> i
           <strong>demontażu.</strong></span
@@ -80,14 +80,14 @@
         data-aos-easing="ease-in-sine"
         data-aos-once="true"
       >
-        <IconBase
+        <!-- <IconBase
           viewBox="0 0 512.853 512.853"
           :width="64"
           :height="64"
           iconColor="hsl(0, 0%, 96%)"
         >
           <IconTruck />
-        </IconBase>
+        </IconBase> -->
         <span>Łatwy i bezproblemowy <strong>transport.</strong></span>
       </div>
     </section>

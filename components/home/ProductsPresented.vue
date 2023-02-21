@@ -1,28 +1,31 @@
 <template>
-  <article id="products" class="products-presented">
+  <section id="products" class="products-presented">
     <h1>Nasze produkty</h1>
     <section class="products-presented__items">
-      <!-- <ProductPresented
-        v-for="productTypes in myProducts.product_types.slice(0, limit)"
+      {{ data }}
+      <HomeProductPresented
+        v-for="productTypes in data"
         :key="productTypes.id"
-        :parallaxScrollSpeed="-0.1"
-        :title="myProducts.name"
+
+        :title="data.name"
         :productTypes="productTypes"
-      /> -->
+      />
     </section>
     <div class="btn-container">
       <NuxtLink to="/offer" class="btn btn--highlight">
         Pełna Oferta
       </NuxtLink>
     </div>
-  </article>
+  </section>
 </template>
 
 <script setup>
-// import localDataBase from '@/data/data.json'
-  
-const limit = 3
+  const data = ref()
 
+  onMounted(async () => {
+    const { data: res } = await fetch('api/types').then((res) => res.json())
+    data.value = res
+  })   
 </script>
 
 <style lang="scss" scoped>
