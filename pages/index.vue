@@ -1,7 +1,7 @@
 <template>
-  <HeroSection />
+  <Hero />
   <ProductList />
   <ProductBenefits />
   <CompaniesReferences />
-  <AppFooter />
+  <Footer />
 </template>
