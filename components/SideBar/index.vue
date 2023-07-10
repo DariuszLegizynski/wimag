@@ -20,7 +20,7 @@
     }"
   >
     <div class="btn sr-only">MENU</div>
-    <NuxtLink to="/home#products" @click="toggle()"
+    <NuxtLink to="/#products" @click="toggle()"
       class="btn"
     >
       OFERTA
@@ -31,7 +31,7 @@
     >
       O FIRMIE
     </NuxtLink>
-    <NuxtLink to="/home#footer"
+    <NuxtLink to="/#footer"
       @click="toggle()"
       class="btn btn--highlight"
     >

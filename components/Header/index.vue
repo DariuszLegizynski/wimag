@@ -49,9 +49,9 @@ const isContrastActive = ref(true)
     </NuxtLink>
     <nav>
       <div class="btn sr-only">MENU</div>
-      <NuxtLink to="/home#products" class="btn btn--transparent"> OFERTA </NuxtLink>
+      <NuxtLink to="/#products" class="btn btn--transparent"> OFERTA </NuxtLink>
       <NuxtLink to="/about" class="btn btn--transparent"> O FIRMIE </NuxtLink>
-      <NuxtLink to="/home#footer" class="btn btn--transparent"> KONTAKT </NuxtLink>
+      <NuxtLink to="/#footer" class="btn btn--transparent"> KONTAKT </NuxtLink>
     </nav>
     <Burger @click="isBurgerActive = !isBurgerActive" :active="isBurgerActive" />
   </header>
