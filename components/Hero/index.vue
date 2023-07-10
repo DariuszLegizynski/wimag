@@ -1,6 +1,5 @@
 <template>
   <article class="hero" id="hero">
-    <!-- <section class="hero__img-landscape" /> -->
     <section class="hero__body">
       <div class="hero__text">
         <h3>Pełen zakres usług,<br />produkt pod same drzwi.</h3>
