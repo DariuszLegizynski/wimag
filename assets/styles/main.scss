@@ -1,0 +1,19 @@
+@import './_general.scss';
+@import './_variables.scss';
+@import './_components.scss';
+@import './_animations.scss';
+@import './_fonts.scss';
+
+body,
+body::before,
+body::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  font-size: 20px;
+  font-family: 'Montserrat-Regular';
+}

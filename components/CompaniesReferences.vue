@@ -1,0 +1,102 @@
+<script setup>
+
+</script>
+
+<template>
+  <article class="references">
+    <h1>Dotychczas zaufali nam:</h1>
+    <section class="references__companies">
+      <img
+        class="references__logo"
+        src="https://i.imgur.com/4kVHNDQm.png"
+        alt="logo of ikea"
+      />
+      <img
+        class="references__logo"
+        src="https://i.imgur.com/Zsd6M0Xm.png"
+        alt="logo Leroy Merlin"
+      />
+      <img
+        class="references__logo logo--mrowka"
+        src="https://i.imgur.com/fygekIEm.png"
+        alt="logo PSB Mrowka"
+      />
+      <img
+        class="references__logo"
+        src="https://i.imgur.com/gzgI9Uxm.jpg"
+        alt="logo Castorama"
+      />
+      <img
+        class="references__logo"
+        src="https://i.imgur.com/BwK5Gt4m.png"
+        alt="logo Bricoman"
+      />
+    </section>
+  </article>
+</template>
+
+
+
+<style lang="scss" scoped>
+@import "assets/styles/main.scss";
+
+.references {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1rem;
+
+  & > h1 {
+    margin-bottom: 2rem;
+    padding: 0.4rem;
+    color: $color-primary;
+    text-align: center;
+  }
+
+  &__companies {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    row-gap: 4rem;
+  }
+
+  &__logo {
+    width: 8rem;
+    object-fit: contain;
+  }
+}
+.logo--mrowka {
+  width: 4rem;
+}
+
+@media only screen and (min-width: 480px) {
+  .references {
+    &__companies {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 4rem;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .references {
+    &__companies {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 4rem;
+    }
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .references {
+    padding: 4rem 0 8rem;
+
+    & > h1 {
+      padding: 4rem 0;
+    }
+    &__companies {
+      grid-template-columns: repeat(6, 1fr);
+      column-gap: 4rem;
+    }
+  }
+}
+</style>
