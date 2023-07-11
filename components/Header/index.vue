@@ -45,11 +45,11 @@ const isContrastActive = ref(true)
     }"
   >
     <NuxtLink to="/" class="logo">
-      <img src="logo/wi-mag_logo_white.png" alt="Wi-Mag logo" />
+      <img src="~assets/logo/wi-mag_logo_white.png" alt="Wi-Mag logo" />
     </NuxtLink>
     <nav>
       <div class="btn sr-only">MENU</div>
-      <NuxtLink to="/#products" class="btn btn--transparent"> OFERTA </NuxtLink>
+      <NuxtLink to="/#products" class="btn btn--transparent"> OFE$color-primaryRTA </NuxtLink>
       <NuxtLink to="/about" class="btn btn--transparent"> O FIRMIE </NuxtLink>
       <NuxtLink to="/#footer" class="btn btn--transparent"> KONTAKT </NuxtLink>
     </nav>
@@ -94,7 +94,7 @@ const isContrastActive = ref(true)
     & > img {
       width: auto;
       height: 2.2rem;
-      background-color: $color-primary;
+      background-color: transparent;
       padding: 0.4rem;
     }
   }
