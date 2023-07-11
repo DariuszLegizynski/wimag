@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <article class="references">
     <h1>Dotychczas zaufali nam:</h1>
