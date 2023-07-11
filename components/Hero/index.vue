@@ -11,9 +11,9 @@
         </span>
       </div>
       <div class="hero__call-to-action">
-        <RouterLink class="btn btn--highlight" to="/home#footer"> Zapytaj nas </RouterLink>
-        <RouterLink class="btn btn--secondary" to="/home#footer"> Zapytaj nas </RouterLink>
-        <RouterLink isOffer class="btn" to="/home#products"> Nasza oferta </RouterLink>
+        <NuxtLink class="btn btn--highlight" to="/#footer"> Zapytaj nas </NuxtLink>
+        <NuxtLink class="btn btn--secondary" to="/#footer"> Zapytaj nas </NuxtLink>
+        <NuxtLink isOffer class="btn" to="/#products"> Nasza oferta </NuxtLink>
       </div>
     </section>
   </article>
