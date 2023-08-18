@@ -12,6 +12,7 @@ getHeroData()
 
 <template>
   <article class="hero" id="hero">
+    <BaseIllustrationsEmptyRacks :width="'100%'" :height="'auto'" />
     <section class="hero__body">
       <div class="hero__text">
         <h3>Pełen zakres usług,<br />produkt pod same drzwi.</h3>
@@ -192,7 +193,9 @@ getHeroData()
       height: 125lvh;
 
       background-color: $color-white;
-      background-image: none, url(https://i.imgur.com/a04DnoM.png);
+      background-image: none,
+      // background-color: $color-white;
+      // background-image: none, url(https://i.imgur.com/a04DnoM.png);
     }
 
     &__text {
