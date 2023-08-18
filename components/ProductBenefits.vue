@@ -5,7 +5,7 @@
       <div
         class="product-pros__item"
       >
-        <Icons class="quality" type="quality" />
+        <BaseIconsQuality :width="'4rem'" :height="'4rem'" />
         <span
           ><strong>Najwyższa jakość<br /></strong>wykonania.</span
         >
@@ -13,13 +13,13 @@
       <div
         class="product-pros__item"
       >
-        <Icons type="norm" />
+        <BaseIconsCertificateNorm :width="'4rem'" :height="'4rem'" />
         <span>Spełniamy normę<br /><strong>PN-78 M-78320.</strong></span>
       </div>
       <div
         class="product-pros__item"
       >
-        <Icons type="strong" />
+        <BaseIconsStrongMuscle :width="'4rem'" :height="'4rem'" />
         <span>
           <strong>Sprawdzone produkty</strong> - próby wytrzymałościowe potwierdzają deklarowane
           obciążenie.
@@ -28,13 +28,13 @@
       <div
         class="product-pros__item"
       >
-        <Icons type="gear" />
+        <BaseIconsGear :width="'4rem'" :height="'4rem'" />
         <span>Proste w<br /><strong>montażu</strong> i <strong>demontażu.</strong></span>
       </div>
       <div
         class="product-pros__item"
       >
-        <Icons type="truck" />
+        <BaseIconsTruck :width="'4rem'" :height="'4rem'" />
         <span>Łatwy i bezproblemowy <strong>transport.</strong></span>
       </div>
     </section>

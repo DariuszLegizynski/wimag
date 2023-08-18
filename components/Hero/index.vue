@@ -1,3 +1,15 @@
+<script setup>
+
+async function getHeroData() {
+  const response = await fetch("http://localhost:1337/api/hero");
+  const heroData = await response.json();
+  console.log(heroData);
+}
+
+getHeroData()
+
+</script>
+
 <template>
   <article class="hero" id="hero">
     <section class="hero__body">

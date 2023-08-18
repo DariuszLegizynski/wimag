@@ -28,7 +28,7 @@ let props = defineProps({
     <RouterLink :to="`/offer/product/${props.product.id}`">
       <button class="btn btn--link">
         Zobacz
-        <Icons type="arrow-right" fill="#070783" />
+        <BaseIconsArrowRight fill="#070783" />
       </button>
     </RouterLink>
   </section>

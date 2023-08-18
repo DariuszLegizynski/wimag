@@ -12,8 +12,8 @@ const toggleDescription = () => {
   <article class="company">
     <header @click="toggleDescription">
       <h2>Historia Firmy</h2>
-      <Icons v-if="showDescription" type="minus" fill="#070783" />
-      <Icons v-else type="plus" fill="#070783" />
+      <BaseIconsMinus v-if="showDescription" fill="#070783" />
+      <BaseIconsPlus v-else fill="#070783" />
     </header>
     <section class="description" :class="{ showDescription }">
       <p>
